@@ -22,7 +22,6 @@ Check out the video:
 
 # Files -- TO UPDATE
 * [Site24x7.zip](Site24x7.zip) - The comm plan
-* [media/Logz-io.mp4](Logz-io.mp4) - Video example of the integration in action
 
 # Installation
 
@@ -34,18 +33,18 @@ Check out the video:
 
 ## Application (Site24x7) set up
 
-1. If you don't yet have a monitor defined in Site24x7:
-1b. Go to Monitors and click ADD MONITOR, pick a monitor type (for the purposes of this recipe, chose "Website")
-1c. Give the new monitor a Display Name (for example "BBC") , fill in the Webpage URL you want to monitor (e.g. http://www.bbc.com/), set the "Accepted HTTP status codes" to 200, accept the defaults for the rest of the options, and save the monitor
-1d. Site24x7 will suggest a bunch of extra things to monitor about the website (page load time, DNS, etc.) but we don't need them, so click "Cancel" to adding them
-2. Go to "Third Party Integration" in the main menu, click "Add Third Party Integration", and choose "Webhooks"
-3. Give the integration a name, for example "xMatters"
-4. Add in the Integration URL from the Comm Plan's Inbound Integration
-5. Select POST Method
-6. Make sure both "Post as JSON" and "Send Incident Parameters" are selected
-7. For Authentication Method, pick "Basic / NTLM" and supply the user name and password for the xMatters user corresponding to the inbound integration URL
-8. For "Integration level" you can specify "All Monitors" to have all alerts be sent to xMatters, or just "Monitors" if you only want to send some of your 24x7 monitors' alerts to xMatters (you can then pick them in the next control that shows up in the UI)
-9. Save the Third Party Integration definition
+1. If you already have a monitor defined in Site24x7, skip to step 5, otherwise continue with step 2
+2.  Go to Monitors and click ADD MONITOR, pick a monitor type (for the purposes of this recipe, chose "Website")
+3. Give the new monitor a Display Name (for example "BBC") , fill in the Webpage URL you want to monitor (e.g. http://www.bbc.com/), set the "Accepted HTTP status codes" to 200, accept the defaults for the rest of the options, and save the monitor
+4. Site24x7 will suggest a bunch of extra things to monitor about the website (page load time, DNS, etc.) but we don't need them, so click "Cancel" to adding them
+5. Go to "Third Party Integration" in the main menu, click "Add Third Party Integration", and choose "Webhooks"
+6. Give the integration a name, for example "xMatters"
+7. Add in the Integration URL from the Comm Plan's Inbound Integration
+8. Select POST Method
+9. Make sure both "Post as JSON" and "Send Incident Parameters" are selected
+10. For Authentication Method, pick "Basic / NTLM" and supply the user name and password for the xMatters user corresponding to the inbound integration URL
+11. For "Integration level" you can specify "All Monitors" to have all alerts be sent to xMatters, or just "Monitors" if you only want to send some of your 24x7 monitors' alerts to xMatters (you can then pick them in the next control that shows up in the UI)
+12. Save the Third Party Integration definition
    
 # Testing
 To test, create an error situation that will trigger your monitor in Site24x7. For example for the Website type monitor, you can edit the monitor definition to look for a URL you know doesn't exist, e.g. http://www.bbc.com123).
