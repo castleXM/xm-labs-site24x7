@@ -21,15 +21,13 @@ Check out the video:
 
 # Files
 * [Site24x7.zip](Site24x7.zip) - The comm plan
-* LICENSE - granting you permission to do whatever you like with this integration
-* README.me - the file you're reading now
 
 # Installation
 
 ## xMatters set up
 
 1. Load in the [Site24x7.zip](Site24x7.zip) Comm Plan
-2. Review the Form's (Site24x7 monitor) configuration - add a default group or user in the recipients section
+2. Review the Form's (Site24x7 monitor) configuration - add a default group or user in the recipients section. Alternatively, create a [Subscription Form](https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/subscriptionforms.htm?cshid=SubscriptionFormListPlace) to allow users to subscribe to Site24x7 events. 
 3. In the Integration Builder, look up the URL for the inbound integration "24x7 inbound"
 
 ## Application (Site24x7) set up
