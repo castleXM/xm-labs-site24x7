@@ -1,5 +1,5 @@
 # Site24x7.com
-Site24x7.com by Zoho.com provides an array of monitoring capabilities including cloud, server and app monitoring; global speed and availability checks for websites, APIs, mail servers; etc. This xM Labs Integration allows you to connect one or more Site24x7 monitor to an xMatters On Demand instance to showcase the ease of passing alerts to xMatters.
+Site24x7 by Zoho provides an array of monitoring capabilities including cloud, server and app monitoring; global speed and availability checks for websites, APIs, mail servers; etc. This xM Labs Integration allows you to connect one or more Site24x7 monitor to an xMatters On Demand instance to showcase the ease of passing alerts to xMatters.
 
 Check out the video:
 
