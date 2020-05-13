@@ -9,7 +9,9 @@ Check out the video:
 ---------
 
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 </kbd>
 
 ---------
@@ -20,13 +22,13 @@ Check out the video:
 * xMatters account
 
 # Files
-* [Site24x7.zip](Site24x7.zip) - The comm plan
+* [Site24x7.zip](Site24x7.zip) - The Workflow
 
 # Installation
 
 ## xMatters set up
 
-1. Load in the [Site24x7.zip](Site24x7.zip) Comm Plan
+1. Load in the [Site24x7.zip](Site24x7.zip) Workflow
 2. Review the Form's (Site24x7 monitor) configuration - add a default group or user in the recipients section. Alternatively, create a [Subscription Form](https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/subscriptionforms.htm?cshid=SubscriptionFormListPlace) to allow users to subscribe to Site24x7 events. 
 3. In the Integration Builder, look up the URL for the inbound integration "24x7 inbound"
 
