@@ -16,6 +16,9 @@ Check out the video:
 
 ---------
 
+An updated version of this integration is available, supporting the latest version of Site24x7 and based on xMatters Flow Designer so you can easily connect other tools to your toolchain. [Learn more](http://help.xmatters.com/integrations/#cshid=Site24x7).
+
+---------
 
 # Pre-Requisites
 * Site24x7 account (https://www.site24x7.com/) or willingness to create a trial account
